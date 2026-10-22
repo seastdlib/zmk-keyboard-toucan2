@@ -8,11 +8,13 @@ manifest:
       url-base: https://github.com/geeksville
     - name: beekeeb
       url-base: https://github.com/beekeeb
+    - name: seastdlib
+      url-base: https://github.com/seastdlib
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: seastdlib
       import: app/west.yml
-      revision: v0.3
+      revision: v0.3-branch
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: v0.3
